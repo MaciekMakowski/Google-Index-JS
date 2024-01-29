@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MaciekMakowski/Google-Index-JS/issues"
   },
-  "homepage": "https://github.com/MaciekMakowski/Google-Index-JS#readme"
+  "homepage": "https://github.com/MaciekMakowski/Google-Index-JS#readme",
+  "dependencies": {
+    "googleapis": "^131.0.0"
+  }
 }

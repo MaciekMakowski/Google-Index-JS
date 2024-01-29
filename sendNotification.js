@@ -1,4 +1,4 @@
-export default sendNotifications = async (
+export default sendNotification = async (
   indexingAPI,
   urlRoute,
   urlType = "URL_UPDATED"
