@@ -10,8 +10,10 @@ export default async function notifyGoogle(
   validateList(urlList);
   if (oldUrlList) validateList(oldUrlList);
 
+  const credentialsJSON = JSON.parse(credentials);
+
   const auth = new google.auth.GoogleAuth({
-    credentials: credentials,
+    credentials: credentialsJSON,
     scopes: ["https://www.googleapis.com/auth/indexing"],
   });
 
