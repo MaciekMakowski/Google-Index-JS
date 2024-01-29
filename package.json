@@ -1,6 +1,6 @@
 {
   "name": "google-indexing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module used to send indexing requests to Google service",
   "main": "index.js",
   "scripts": {
