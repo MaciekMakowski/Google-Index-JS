@@ -1,4 +1,4 @@
-export default sendNotification = async (
+const sendNotification = async (
   indexingAPI,
   urlRoute,
   urlType = "URL_UPDATED"
@@ -15,3 +15,5 @@ export default sendNotification = async (
     console.error(`Google notification error: ${error}`);
   }
 };
+
+export default sendNotification;

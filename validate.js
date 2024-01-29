@@ -1,4 +1,4 @@
-export default validateList = (urlList) => {
+const validateList = (urlList) => {
   if (!urlList) throw new Error("URL list is empty");
   for (const urlRoute of urlList) {
     if (typeof urlRoute !== "string") throw new Error("URL is not a string");
@@ -25,3 +25,5 @@ const validateUrlLength = (url, maxLength = 2048) => {
     );
   }
 };
+
+export default validateList;
